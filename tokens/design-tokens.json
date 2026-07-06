@@ -651,7 +651,86 @@
         "08": { "type": "dimension", "value": 8 }
       }
     },
-    "color": {
+    "layout": {
+      "2xs": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.12}"
+      },
+      "xs": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.16}"
+      },
+      "sm": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.20}"
+      },
+      "md": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.24}"
+      },
+      "lg": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.32}"
+      },
+      "xl": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.40}"
+      },
+      "2xl": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.56}"
+      },
+      "3xl": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.64}"
+      },
+      "3xs": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.08}"
+      },
+      "4xs": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.04}"
+      },
+      "4xl": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.80}"
+      }
+    },
+    "radius": {
+      "sm": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.04}"
+      },
+      "md": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.08}"
+      },
+      "lg": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.12}"
+      },
+      "pill": {
+        "description": "",
+        "type": "dimension",
+        "value": "{core.number.360}"
+      }
+    },
+    "semantic": {
       "bg": {
         "neutral": {
           "default": {
@@ -688,6 +767,23 @@
               "value": "{core.color.gray.200}"
             }
           },
+          "shade": {
+            "base": {
+              "description": "",
+              "type": "color",
+              "value": "{core.color.gray.100}"
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{core.color.gray.200}"
+            },
+            "press": {
+              "description": "",
+              "type": "color",
+              "value": "{core.color.gray.300}"
+            }
+          },
           "disable": {
             "base": {
               "description": "",
@@ -706,26 +802,9 @@
               "type": "color",
               "value": "{core.color.gray.900}"
             }
-          },
-          "shade": {
-            "base": {
-              "description": "",
-              "type": "color",
-              "value": "{core.color.gray.100}"
-            },
-            "hover": {
-              "description": "",
-              "type": "color",
-              "value": "{core.color.gray.200}"
-            },
-            "press": {
-              "description": "",
-              "type": "color",
-              "value": "{core.color.gray.300}"
-            }
           }
         },
-        "cloudblue": {
+        "primary": {
           "default": {
             "base": {
               "description": "",
@@ -835,15 +914,15 @@
         },
         "success": {
           "default": {
-            "hover": {
-              "description": "",
-              "type": "color",
-              "value": "{core.color.lime.100}"
-            },
             "base": {
               "description": "",
               "type": "color",
               "value": "{core.color.lime.000}"
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{core.color.lime.100}"
             },
             "press": {
               "description": "",
@@ -951,6 +1030,11 @@
       },
       "fg": {
         "neutral": {
+          "strong": {
+            "description": "",
+            "type": "color",
+            "value": "{core.color.gray.1000}"
+          },
           "default": {
             "description": "",
             "type": "color",
@@ -961,23 +1045,18 @@
             "type": "color",
             "value": "{core.color.gray.700}"
           },
-          "strong": {
+          "subtler": {
             "description": "",
             "type": "color",
-            "value": "{core.color.gray.1000}"
+            "value": "{core.color.gray.600}"
           },
           "disable": {
             "description": "",
             "type": "color",
             "value": "{core.color.gray.400}"
-          },
-          "subtler": {
-            "description": "",
-            "type": "color",
-            "value": "{core.color.gray.600}"
           }
         },
-        "cloudblue": {
+        "primary": {
           "default": {
             "base": {
               "description": "",
@@ -1010,6 +1089,11 @@
             }
           }
         },
+        "white": {
+          "description": "",
+          "type": "color",
+          "value": "{core.color.white}"
+        },
         "apigreen": {
           "base": {
             "description": "",
@@ -1022,6 +1106,37 @@
             "value": "{core.color.green.600}"
           }
         },
+        "faiblue": {
+          "default": {
+            "description": "",
+            "type": "color",
+            "value": "{core.color.blue.brand}"
+          }
+        },
+        "success": {
+          "default": {
+            "base": {
+              "description": "",
+              "type": "color",
+              "value": "{core.color.lime.600}"
+            },
+            "press": {
+              "description": "",
+              "type": "color",
+              "value": "{core.color.lime.800}"
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{core.color.lime.700}"
+            }
+          },
+          "strong": {
+            "description": "",
+            "type": "color",
+            "value": "{core.color.lime.900}"
+          }
+        },
         "warning": {
           "strong": {
             "description": "",
@@ -1029,15 +1144,15 @@
             "value": "{core.color.yellow.900}"
           },
           "default": {
-            "base": {
-              "description": "",
-              "type": "color",
-              "value": "{core.color.yellow.600}"
-            },
             "hover": {
               "description": "",
               "type": "color",
               "value": "{core.color.yellow.700}"
+            },
+            "base": {
+              "description": "",
+              "type": "color",
+              "value": "{core.color.yellow.600}"
             },
             "press": {
               "description": "",
@@ -1046,12 +1161,12 @@
             }
           }
         },
-        "white": {
-          "description": "",
-          "type": "color",
-          "value": "{core.color.white}"
-        },
         "danger": {
+          "strong": {
+            "description": "",
+            "type": "color",
+            "value": "{core.color.red.700}"
+          },
           "default": {
             "base": {
               "description": "",
@@ -1068,42 +1183,6 @@
               "type": "color",
               "value": "{core.color.red.700}"
             }
-          },
-          "strong": {
-            "description": "",
-            "type": "color",
-            "value": "{core.color.red.700}"
-          }
-        },
-        "success": {
-          "default": {
-            "base": {
-              "description": "",
-              "type": "color",
-              "value": "{core.color.lime.600}"
-            },
-            "hover": {
-              "description": "",
-              "type": "color",
-              "value": "{core.color.lime.700}"
-            },
-            "press": {
-              "description": "",
-              "type": "color",
-              "value": "{core.color.lime.800}"
-            }
-          },
-          "strong": {
-            "description": "",
-            "type": "color",
-            "value": "{core.color.lime.900}"
-          }
-        },
-        "faiblue": {
-          "default": {
-            "description": "",
-            "type": "color",
-            "value": "{core.color.blue.brand}"
           }
         }
       },
@@ -1226,18 +1305,18 @@
             "type": "color",
             "value": "{core.color.gray.300}"
           },
-          "strong": {
-            "description": "",
-            "type": "color",
-            "value": "{core.color.gray.1000}"
-          },
           "subtle": {
             "description": "",
             "type": "color",
             "value": "{core.color.gray.800}"
+          },
+          "strong": {
+            "description": "",
+            "type": "color",
+            "value": "{core.color.gray.1000}"
           }
         },
-        "cloudblue": {
+        "primary": {
           "default": {
             "description": "",
             "type": "color",
@@ -1296,85 +1375,6 @@
           "value": "#0000004d",
           "blendMode": "normal"
         }
-      }
-    },
-    "layout": {
-      "2xs": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.12}"
-      },
-      "xs": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.16}"
-      },
-      "sm": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.20}"
-      },
-      "md": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.24}"
-      },
-      "lg": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.32}"
-      },
-      "xl": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.40}"
-      },
-      "2xl": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.56}"
-      },
-      "3xl": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.64}"
-      },
-      "3xs": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.08}"
-      },
-      "4xs": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.04}"
-      },
-      "4xl": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.80}"
-      }
-    },
-    "radius": {
-      "sm": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.04}"
-      },
-      "md": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.08}"
-      },
-      "lg": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.12}"
-      },
-      "pill": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.360}"
       }
     }
   },
