@@ -1,4 +1,4 @@
-# Design Token Transformer
+# FAI Design System
 
 This repo stores Friendli's design tokens (`tokens/*.json`) exported from Figma.
 
