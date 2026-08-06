@@ -1142,6 +1142,18 @@
             "value": "{core.color.blue.brand}"
           }
         },
+        "inverse": {
+          "default": {
+            "description": "",
+            "type": "color",
+            "value": "{core.color.white}"
+          },
+          "hover": {
+            "description": "",
+            "type": "color",
+            "value": "{core.color.gray.100}"
+          }
+        },
         "neutral": {
           "default": {
             "description": "",
@@ -1247,6 +1259,13 @@
           "value": "{core.color.white}"
         }
       },
+      "scrim": {
+        "default": {
+          "type": "color",
+          "value": "#00000080",
+          "blendMode": "normal"
+        }
+      },
       "shadow": {
         "base": {
           "type": "color",
@@ -1294,6 +1313,11 @@
             "description": "text on dark bg",
             "type": "color",
             "value": "{core.color.white}"
+          },
+          "hover": {
+            "description": "",
+            "type": "color",
+            "value": "{core.color.gray.100}"
           }
         },
         "neutral": {
