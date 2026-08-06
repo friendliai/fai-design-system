@@ -651,63 +651,6 @@
         "08": { "type": "dimension", "value": 8 }
       }
     },
-    "layout": {
-      "2xs": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.12}"
-      },
-      "xs": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.16}"
-      },
-      "sm": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.20}"
-      },
-      "md": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.24}"
-      },
-      "lg": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.32}"
-      },
-      "xl": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.40}"
-      },
-      "2xl": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.56}"
-      },
-      "3xl": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.64}"
-      },
-      "3xs": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.08}"
-      },
-      "4xs": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.04}"
-      },
-      "4xl": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.80}"
-      }
-    },
     "radius": {
       "lg": {
         "description": "",
@@ -1142,6 +1085,18 @@
             "value": "{core.color.blue.brand}"
           }
         },
+        "inverse": {
+          "default": {
+            "description": "",
+            "type": "color",
+            "value": "{core.color.white}"
+          },
+          "hover": {
+            "description": "",
+            "type": "color",
+            "value": "{core.color.gray.100}"
+          }
+        },
         "neutral": {
           "default": {
             "description": "",
@@ -1247,6 +1202,13 @@
           "value": "{core.color.white}"
         }
       },
+      "scrim": {
+        "default": {
+          "type": "color",
+          "value": "#00000080",
+          "blendMode": "normal"
+        }
+      },
       "shadow": {
         "base": {
           "type": "color",
@@ -1294,6 +1256,11 @@
             "description": "text on dark bg",
             "type": "color",
             "value": "{core.color.white}"
+          },
+          "hover": {
+            "description": "",
+            "type": "color",
+            "value": "{core.color.gray.100}"
           }
         },
         "neutral": {
