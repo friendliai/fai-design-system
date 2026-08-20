@@ -651,63 +651,6 @@
         "08": { "type": "dimension", "value": 8 }
       }
     },
-    "layout": {
-      "2xs": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.12}"
-      },
-      "xs": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.16}"
-      },
-      "sm": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.20}"
-      },
-      "md": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.24}"
-      },
-      "lg": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.32}"
-      },
-      "xl": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.40}"
-      },
-      "2xl": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.56}"
-      },
-      "3xl": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.64}"
-      },
-      "3xs": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.08}"
-      },
-      "4xs": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.04}"
-      },
-      "4xl": {
-        "description": "",
-        "type": "dimension",
-        "value": "{core.number.80}"
-      }
-    },
     "radius": {
       "lg": {
         "description": "",
@@ -1329,7 +1272,7 @@
           "disable": {
             "description": "disabled text",
             "type": "color",
-            "value": "{core.color.gray.400}"
+            "value": "{core.color.gray.500}"
           },
           "strong": {
             "description": "btn, heading, title, subtitle emphasized text",
@@ -1339,12 +1282,12 @@
           "subtle": {
             "description": "description, secondary text",
             "type": "color",
-            "value": "{core.color.gray.700}"
+            "value": "{core.color.gray.800}"
           },
           "subtler": {
             "description": "placeholder, meta info",
             "type": "color",
-            "value": "{core.color.gray.600}"
+            "value": "{core.color.gray.700}"
           }
         },
         "primary": {
