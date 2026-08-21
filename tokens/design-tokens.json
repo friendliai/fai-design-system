@@ -651,7 +651,7 @@
         "08": { "type": "dimension", "value": 8 }
       }
     },
-     "layout": {
+    "layout": {
       "2xs": {
         "description": "",
         "type": "dimension",
