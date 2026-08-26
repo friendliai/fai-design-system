@@ -651,7 +651,7 @@
         "08": { "type": "dimension", "value": 8 }
       }
     },
-    "layout": {
+     "layout": {
       "2xs": {
         "description": "",
         "type": "dimension",
@@ -1257,6 +1257,13 @@
           "description": "",
           "type": "color",
           "value": "{core.color.white}"
+        }
+      },
+      "focus-ring": {
+        "default": {
+          "type": "color",
+          "value": "#2a62db99",
+          "blendMode": "normal"
         }
       },
       "scrim": {
