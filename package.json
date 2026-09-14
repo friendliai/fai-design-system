@@ -1,0 +1,7 @@
+{
+  "name": "design-token-transformer",
+  "version": "0.1.0",
+  "files": [
+    "tokens"
+  ]
+}
