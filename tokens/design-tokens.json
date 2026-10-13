@@ -1,5 +1,29 @@
 {
   "effect": {
+    "focus-ring-default": {
+      "description": null,
+      "type": "custom-shadow",
+      "value": {
+        "shadowType": "dropShadow",
+        "radius": 0,
+        "color": "#2a62db99",
+        "offsetX": 0,
+        "offsetY": 0,
+        "spread": 4
+      }
+    },
+    "focus-ring-inverse": {
+      "description": null,
+      "type": "custom-shadow",
+      "value": {
+        "shadowType": "dropShadow",
+        "radius": 0,
+        "color": "#0095ffb2",
+        "offsetX": 0,
+        "offsetY": 0,
+        "spread": 4
+      }
+    },
     "shadow-lg": {
       "description": null,
       "type": "custom-shadow",
@@ -160,9 +184,9 @@
             "value": "#f1f5ffff",
             "blendMode": "normal"
           },
-          "brand": {
+          "brand(deprecated)": {
             "type": "color",
-            "value": "#2a62dbff",
+            "value": "#1d4cb3ff",
             "blendMode": "normal"
           }
         },
@@ -630,47 +654,28 @@
             "blendMode": "normal"
           }
         }
-      },
-      "number": {
-        "12": { "type": "dimension", "value": 12 },
-        "16": { "type": "dimension", "value": 16 },
-        "20": { "type": "dimension", "value": 20 },
-        "24": { "type": "dimension", "value": 24 },
-        "32": { "type": "dimension", "value": 32 },
-        "40": { "type": "dimension", "value": 40 },
-        "48": { "type": "dimension", "value": 48 },
-        "56": { "type": "dimension", "value": 56 },
-        "64": { "type": "dimension", "value": 64 },
-        "72": { "type": "dimension", "value": 72 },
-        "80": { "type": "dimension", "value": 80 },
-        "104": { "type": "dimension", "value": 104 },
-        "128": { "type": "dimension", "value": 128 },
-        "256": { "type": "dimension", "value": 256 },
-        "360": { "type": "dimension", "value": 360 },
-        "04": { "type": "dimension", "value": 4 },
-        "08": { "type": "dimension", "value": 8 }
       }
     },
     "radius": {
       "lg": {
         "description": "",
         "type": "dimension",
-        "value": "{core.number.12}"
+        "value": "{core.number(deprecated).12}"
       },
       "md": {
         "description": "",
         "type": "dimension",
-        "value": "{core.number.08}"
+        "value": "{core.number(deprecated).08}"
       },
       "pill": {
         "description": "",
         "type": "dimension",
-        "value": "{core.number.360}"
+        "value": "{core.number(deprecated).360}"
       },
       "sm": {
         "description": "",
         "type": "dimension",
-        "value": "{core.number.04}"
+        "value": "{core.number(deprecated).04}"
       }
     },
     "semantic": {
@@ -787,7 +792,7 @@
           "default": {
             "description": "",
             "type": "color",
-            "value": "{core.color.blue.brand}"
+            "value": "{core.color.brand-color.fai_blue}"
           }
         },
         "neutral": {
@@ -1033,7 +1038,7 @@
         }
       },
       "fg": {
-        "apigreen": {
+        "apigreen(deprecated)": {
           "base": {
             "description": "",
             "type": "color",
@@ -1045,7 +1050,7 @@
             "value": "{core.color.green.600}"
           }
         },
-        "apiviolet": {
+        "apiviolet(deprecated)": {
           "default": {
             "base": {
               "description": "",
@@ -1078,11 +1083,11 @@
             "value": "{core.color.red.700}"
           }
         },
-        "faiblue": {
+        "faiblue(deprecated)": {
           "default": {
             "description": "",
             "type": "color",
-            "value": "{core.color.blue.brand}"
+            "value": "{core.color.blue.brand(deprecated)}"
           }
         },
         "inverse": {
@@ -1205,7 +1210,12 @@
       "focus-ring": {
         "default": {
           "type": "color",
-          "value": "#2a62db99",
+          "value": null,
+          "blendMode": "normal"
+        },
+        "inverse": {
+          "type": "color",
+          "value": null,
           "blendMode": "normal"
         }
       },
@@ -1253,14 +1263,14 @@
             }
           },
           "strong": {
-            "description": "emphasized danger text",
+            "description": "",
             "type": "color",
-            "value": "{core.color.red.900}"
+            "value": "{core.color.red.700}"
           }
         },
         "inverse": {
           "default": {
-            "description": "text on dark bg",
+            "description": "",
             "type": "color",
             "value": "{core.color.white}"
           },
@@ -1272,27 +1282,27 @@
         },
         "neutral": {
           "default": {
-            "description": "general text",
+            "description": "",
             "type": "color",
             "value": "{core.color.gray.900}"
           },
           "disable": {
-            "description": "disabled text",
+            "description": "",
             "type": "color",
             "value": "{core.color.gray.500}"
           },
           "strong": {
-            "description": "btn, heading, title, subtitle emphasized text",
+            "description": "",
             "type": "color",
             "value": "{core.color.gray.1000}"
           },
           "subtle": {
-            "description": "description, secondary text",
+            "description": "",
             "type": "color",
             "value": "{core.color.gray.800}"
           },
           "subtler": {
-            "description": "placeholder, meta info",
+            "description": "",
             "type": "color",
             "value": "{core.color.gray.700}"
           }
@@ -1300,7 +1310,7 @@
         "primary": {
           "default": {
             "base": {
-              "description": "link, text button",
+              "description": "",
               "type": "color",
               "value": "{core.color.blue.500}"
             },
@@ -1316,7 +1326,7 @@
             }
           },
           "strong": {
-            "description": "emphasized primary text",
+            "description": "",
             "type": "color",
             "value": "{core.color.blue.900}"
           }
@@ -1324,13 +1334,13 @@
         "success": {
           "default": {
             "base": {
-              "description": "success text",
+              "description": "",
               "type": "color",
               "value": "{core.color.lime.600}"
             }
           },
           "strong": {
-            "description": "emphasized success text",
+            "description": "",
             "type": "color",
             "value": "{core.color.lime.900}"
           }
@@ -1338,71 +1348,17 @@
         "warning": {
           "default": {
             "base": {
-              "description": "warning text",
+              "description": "",
               "type": "color",
-              "value": "{core.color.yellow.700}"
+              "value": "{core.color.yellow.600}"
             }
           },
           "strong": {
-            "description": "emphasized warning text",
+            "description": "",
             "type": "color",
             "value": "{core.color.yellow.900}"
           }
         }
-      }
-    },
-    "space": {
-      "100": {
-        "type": "dimension",
-        "value": 8
-      },
-      "150": {
-        "type": "dimension",
-        "value": 12
-      },
-      "200": {
-        "type": "dimension",
-        "value": 16
-      },
-      "250": {
-        "type": "dimension",
-        "value": 20
-      },
-      "300": {
-        "type": "dimension",
-        "value": 24
-      },
-      "400": {
-        "type": "dimension",
-        "value": 32
-      },
-      "500": {
-        "type": "dimension",
-        "value": 40
-      },
-      "600": {
-        "type": "dimension",
-        "value": 48
-      },
-      "800": {
-        "type": "dimension",
-        "value": 64
-      },
-      "1000": {
-        "type": "dimension",
-        "value": 80
-      },
-      "025": {
-        "type": "dimension",
-        "value": 2
-      },
-      "050": {
-        "type": "dimension",
-        "value": 4
-      },
-      "075": {
-        "type": "dimension",
-        "value": 6
       }
     }
   },
