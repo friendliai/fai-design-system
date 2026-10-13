@@ -1205,7 +1205,12 @@
       "focus-ring": {
         "default": {
           "type": "color",
-          "value": "#2a62db99",
+          "value": null,
+          "blendMode": "normal"
+        },
+        "inverse-2": {
+          "type": "color",
+          "value": null,
           "blendMode": "normal"
         }
       },
