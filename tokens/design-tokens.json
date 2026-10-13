@@ -1,5 +1,29 @@
 {
   "effect": {
+    "focus-ring-default": {
+      "description": null,
+      "type": "custom-shadow",
+      "value": {
+        "shadowType": "dropShadow",
+        "radius": 0,
+        "color": "#2a62db99",
+        "offsetX": 0,
+        "offsetY": 0,
+        "spread": 4
+      }
+    },
+    "focus-ring-inverse": {
+      "description": null,
+      "type": "custom-shadow",
+      "value": {
+        "shadowType": "dropShadow",
+        "radius": 0,
+        "color": "#0095ffb2",
+        "offsetX": 0,
+        "offsetY": 0,
+        "spread": 4
+      }
+    },
     "shadow-lg": {
       "description": null,
       "type": "custom-shadow",
@@ -1206,6 +1230,11 @@
         "default": {
           "type": "color",
           "value": "#2a62db99",
+          "blendMode": "normal"
+        },
+        "inverse": {
+          "type": "color",
+          "value": "#0095ffb3",
           "blendMode": "normal"
         }
       },
