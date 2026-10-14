@@ -18,7 +18,7 @@
       "value": {
         "shadowType": "dropShadow",
         "radius": 0,
-        "color": "#0095ffb3",
+        "color": "#0095ffb2",
         "offsetX": 0,
         "offsetY": 0,
         "spread": 4
@@ -1229,12 +1229,12 @@
       "focus-ring": {
         "default": {
           "type": "color",
-          "value": "#2a62db99",
+          "value": null,
           "blendMode": "normal"
         },
         "inverse": {
           "type": "color",
-          "value": "#0095ffb3",
+          "value": null,
           "blendMode": "normal"
         }
       },
